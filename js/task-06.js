@@ -6,8 +6,8 @@ valid.addEventListener("blur", onCheckСonditionInput);
 
 function onCheckСonditionInput(event) {
   if (event.currentTarget.value.length === Number(checkLength)) {
-    event.currentTarget.classList.add("valid");
+    valid.classList.add("valid");
   } else {
-    event.currentTarget.classList.add("invalid");
+    valid.classList.add("invalid");
   }
 }
