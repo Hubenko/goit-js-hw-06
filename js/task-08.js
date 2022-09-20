@@ -12,6 +12,6 @@ function onFormSubmit(event) {
     alert("Введите значение");
   } else {
     console.log(formData);
+    form.reset();
   }
-  form.reset();
 }
